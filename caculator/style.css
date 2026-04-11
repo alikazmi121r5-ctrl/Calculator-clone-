@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #faf3e0;
+}
+
+body{
+    background-color: #0d0d0d;
+}
+
+#h{
+    margin-top: 20px;
+    text-align: center;
+    color: #faf3e0;
+    font-family:  serif;
+}
+
+.cal-body{
+    border: 2px solid silver;
+    justify-self: center;
+    margin-top: 75px;
+    height: 500px;
+    width: 415px;
+    border-radius: 18px;
+}
+
+.screen{
+    justify-self: center;
+    width: 90%;
+    height: 20%;
+    margin-top: 15px;
+    border: 1px solid silver;
+    border-radius: 18px;
+    background-color: #1d1c1c;
+    text-align: left;
+    font-size: 40px;
+}
+.screen p{
+     text-align: left;
+    font-size: 40px;
+    margin-top:25px ;
+    margin-left: 10px;
+}
+
+.buttons-opt{
+    margin: 14px 0px 0px 20px;
+}
+.num-but{
+    width: 80px;
+    height: 50px;
+    background-color: #1c1c1c;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.operate-but{
+    width: 80px;
+    height: 60px;
+    background-color: #1c1c1c;
+    border-radius: 15px;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+#equal{
+    width: 160px;
+}
+
+.power-but{
+    width: 80px;
+    height: 60px;
+    background-color: #1c1c1c;
+    border-radius: 15px;
+    font-size: 17px;
+    margin-left: 10px;
+}
