@@ -59,5 +59,6 @@ equal.addEventListener("click",()=>{
 });
 
 power.addEventListener("click",()=>{
-    screens.textContent="";
+
+    screens.textContent=screens.textContent.slice(0,-1);
 });
