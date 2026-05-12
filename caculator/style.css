@@ -76,3 +76,32 @@ body{
     font-size: 17px;
     margin-left: 10px;
 }
+
+
+@media (min-width: 350px) and (max-width: 450px) {
+  .cal-body {
+    width: 80%;
+  }
+  .screen {
+    width: 80%;
+  }
+
+  .num-but {
+    width: 65px;
+  }
+  .operate-but {
+    width: 65px;
+  }
+  .power-but {
+    width: 70px;
+    margin: 0;
+  }
+
+  #equal {
+    width: 130px;
+  }
+
+  .buttons-opt {
+    margin: 14px 0px 0px 0px;
+  }
+}
